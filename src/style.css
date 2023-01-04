@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f6f6;
+}
+/* smallNav styles */
+.smallNav > img{
+    margin: 0 0.625rem 0 0.938rem;
+    vertical-align: middle;
+}
+.smallNav >ul>li{
+    vertical-align: middle;
+}
+.smallNav{
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 1.4rem;
+
+}
+.smallNav2 > ul > li{
+    margin: 0 0 0 2.5rem;
+    vertical-align: middle;
+}
+/* bigNav */
+.bigNav{
+    height: 80px;
+    position: sticky;
+}
+.inbig{
+    display: grid;
+    grid-template-columns: 92px 161px 400px 91px 70px 64px ;
+    grid-template-rows: 80px;
+    grid-column-gap: 48px;
+    margin: 0 185px 0 185px;
+    width: 1055px;
+    height: 100%;
+
+
+}
+.licious-Icon{
+    margin: 25px 0 16px 0;
+}
+.licious-Icon>img{
+    padding: 0;
+    margin: 0;
+}
+.loc-icon  img{
+    padding: 0;
+}
+.location{
+    display: flex;
+}
+.loc-expand{
+    display: inline;
+    padding: 23px 0 18px 0;
+
+}
+.upperLoc{
+font-family:'Lato',sans-serif;
+font-size: 10px;
+letter-spacing: normal;
+text-align: start;
+color:#000;
+opacity: 50%;
+
+}
+.downloc{
+    font-size: 12px;
+    font-family:'Lato',sans-serif;
+    letter-spacing: normal;
+    text-align: start;
+    color:#000;
+    text-overflow: clip;
+    max-width: 100px;
+    
+    
+
+}
+.loc-icon{
+    margin: 25px 0px 16px 0px;
+}
+/*search bar*/
+
+
+.search{
+    border : 1px solid #333;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.search > input{
+    border : 1px solid #333;
+
+    padding-left:20px ;
+    background-color: #f8f8f8;
+    width: 400px;
+    height:40px;
+    border:#f9e3e3 1px solid ;
+    border-radius: 5px;
+    margin: 18px 0 16px 0;
+    font-size: 15px;
+    
+}
+::placeholder { 
+    color :#737272;
+    
+  }
+.search > img{
+    margin-right: 3rem;
+    /* border : 1px solid #333; */
+    cursor: pointer;
+    top: 0px;
+    left:350px;
+    margin: 18px 0 16px 0;
+    height: 40px;
+    
+}
+
+/*CATEGORIES*/
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat{
+    margin-left: 10px;
+    width: 57px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Lato',sans-serif;
+}
+/*login */
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    margin-left: 10px;
+    width: 57px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Lato',sans-serif;
+}
+
+/*Cart*/
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car{
+    margin-left: 10px;
+    width: 57px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Lato',sans-serif; 
+}
+
+.forEffect{
+    width: 100%;
+    height: 3px;
+    background-color: #eaeaea;
+}
+
+
+.advertisement{
+    width: 100%;
+    height: 408px;
+    background-color: #f7f6f6;
+
+}
+.advertisement > img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Explore by categories*/
+
+.explore-main{
+    background-color: #f7f6f6;
+    margin: 38px 160px 0 160px;
+   
+
+
+}
+.main-head{
+    height: 29px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: normal;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+}
+.sec-head{
+    font-family: 'Lato',sans-serif;
+    height: 17px;
+    color: #959799;
+    line-height: 17px;
+    font-size: 14px;
+}
+.explore{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 24px;
+    width: 100%;
+    padding-top: 12px;
+}
+.card{
+    width: 264px;
+    margin-top: 8px;
+    padding-top: 12px;
+}
+.card > img:hover{
+    border: 1px solid rgb(214, 52, 52);
+    border-radius:50px;
+    filter: drop-shadow(8px 8px 4px rgb(55, 83, 205));
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.card > img{
+    width: 264px;
+    height: 205px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.card-name{
+    font-family: 'Lato',sans-serif;
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    opacity: 80%;
+}
